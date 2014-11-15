@@ -1,0 +1,10 @@
+<h1>Welcome <%= current_user.username %>!</h1>
+
+<b>Your Feed!</b>
+<div class="infinite-tweets">
+<ul id="feed">
+</ul>
+  <a class="fetch-more" href="javascript:void(0)">Fetch Tweets</a>
+</div>
+
+<%= render "tweets/form" %>
